@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.karabuktso.tsoaplication.baskanin_mesaji">
+    <LinearLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/yenilogo"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/logo"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_alignBottom="@+id/frame"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/logoo" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/home"
+            android:layout_marginTop="50dp"
+            />
+
+        <Button
+            android:id="@+id/duyuru"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/duyuru"
+            android:layout_marginTop="50dp"/>
+        <Button
+            android:id="@+id/iletisim"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/iletisim"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp">
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="110dp"
+            android:layout_height="105dp"
+            app:srcCompat="@drawable/baskan" />
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="650dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="115dp"
+            android:text="Ticaret Odası Başkanlığı makamı önce sorumluluk ve daha sonra büyük bir gayret ve vizyon anlayışını zorunlu kılan son derece önemli bir konumdur. Bunun bilincinde ve gelişen her türlü konjönktürel şartların farkındayız. Üreten Karabük ve gelişen kent vizyonumuz süreç içerisinde hayata geçirdiğimiz ve geliştirdiğimiz projeler ışığında yeni ufuklar kazanacaktır. Çok çalışmak ve yeni projeler geliştirmek mecburiyetindeyiz. Zira bu şehir ve bu şehrin insanı her şeyin en güzelini hakediyor. Kurul arkadaşlarımızla beraber bu önemli görevi layıkı ile ifa edeceğimize inanıyorum. Birlik ve beraberliğimizi, mesleklerinde başarılı, vizyonu yüksek kadrolarımızın çalışma azmini en büyük sermayemiz olarak görüyorum. Hedeflerimizi yüksek belirleyerek, sadece ilimizin değil ülkemizin de gelişmesinde söz sahibi olmayı amaçlıyoruz. Ülkemiz kalkınmasında ağır sanayinin beşiği olarak kabul edilen Karabük , yurdumuzun dört bir yanında sanayinin ilk 500’üne giren firmalarıyla da bir güç olarak görülmekte ve her konumda söz sahibi olma iddiasını devam ettirmek zorundadır. Özellikle belirtmek isterim ki; bize tevdi edilen ve kutsal bir emanet olarak gördüğümüz hizmet makamında ortaya koyacağımız hedefleri öncelikle üyelerimizin ve ilin menfaatlerini gözeterek yürüteceğimize, kararlarımızı tarafsızlık, adalet ve şeffaflık ilkeleriyle alacağımıza, idaremizin ruhunda Karabük, özünde Karabük olacak şekilde, katılımcı, paylaşımcı, öneriye açık, önyargısız ve şeffaf bir yönetim anlayışını benimseyeceğimize söz veriyoruz. Önümüzdeki çalışma dönemimizde camiamızın gurur duyacağı gelişmeleri hep birlikte başaracağımız inancıyla, odamıza bu güne kadar hizmet veren tüm yöneticilerimize teşekkür ediyor, aramızdan ayrılanları rahmetle anıyor, yeni dönemin ilimize ve ülkemize hayırlı olmasını temenni ediyorum."
+            android:textSize="14sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

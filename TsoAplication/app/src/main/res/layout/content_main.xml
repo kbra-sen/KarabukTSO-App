@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:id="@+id/fram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/yenilogo"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/logo"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:layout_alignBottom="@+id/frame"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/logoo" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/home"
+            android:layout_marginTop="50dp"
+            />
+
+        <Button
+            android:id="@+id/duyuru"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/duyuru"
+            android:layout_marginTop="50dp"/>
+        <Button
+            android:id="@+id/iletisim"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/iletisim"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="110dp"
+            android:layout_height="105dp"
+            app:srcCompat="@drawable/baskan" />
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:text="Ticaret Odası Başkanlığı makamı önce sorumluluk ve daha sonra büyük bir gayret ve vizyon anlayışını
+ zorunlu kılan son derece önemli bir konumdur. Bunun bilincinde ve gelişen her türlü konjönktürel şartların ..Devamını gör"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+
+            android:id="@+id/tvHaber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:fontFamily="sans-serif"
+            android:text="Haberler"
+            android:textColor="#795548"
+            android:textStyle="bold"
+            android:textColorHighlight="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GÜNCEL"
+            android:textColor="#795548"
+            android:layout_marginTop="350dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+

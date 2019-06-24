@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Karabük TSO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="kurumsal_liste">
+        <item>Yönetim Kurulu</item>
+        <item>Meclis Üyeleri</item>
+        <item>Meslek Komiteleri</item>
+        <item>Disiplin Kurulu</item>
+        <item>Genç Girişimciler Kurulu</item>
+        <item>Kadın Girişimciler Kurulu</item>
+        <item>Çalışanlarımız</item>
+        <item>KTSO Logo</item>
+        <item>Kurumsal Kimlik Rehberi</item>
+        <item>KTSO Bilgiler</item>
+        <item>Yönetim Kurulu Başkanlarımız</item>
+        <item>Meclis Başkanlarımız</item>
+    </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

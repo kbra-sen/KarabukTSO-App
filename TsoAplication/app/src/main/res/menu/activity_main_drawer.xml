@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anasayfa"
+            android:title="ANASAYFA" />
+        <item
+            android:id="@+id/nav_kurumsal"
+            android:title="KURUMSAL"  />
+        <item
+            android:id="@+id/nav_hizmetler"
+            android:title="HİZMETLER" />
+        <item
+            android:id="@+id/nav_uyeler"
+            android:title="ÜYELER" />
+        <item
+            android:id="@+id/nav_yayinlar"
+            android:title="YAYINLAR" />
+        <item
+            android:id="@+id/nav_disticaret"
+            android:title="DIŞ TİCARET" />
+        <item
+            android:id="@+id/nav_akre"
+            android:title="AKREDİTASYON" />
+        <item
+            android:id="@+id/nav_online"
+            android:title="ONLİNE EĞİTİM" />
+        <item
+            android:id="@+id/nav_fuar"
+
+            android:title="FUAR TAKVİMİ" />
+        <item
+            android:id="@+id/nav_etkinlik"
+            android:checkable="false"
+            android:title="ETKİNLİK TAKVİMİ"
+            android:visible="true" />
+    </group>
+
+    <item android:title="Ayarlar">
+        <menu>
+            <item
+                android:id="@+id/nav_bildirim"
+                android:checkable="false"
+                android:title="BİLDİRİM AYARLARI" />
+        </menu>
+    </item>
+
+</menu>
